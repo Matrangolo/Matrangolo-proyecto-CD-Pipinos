@@ -23,16 +23,20 @@ header{
     margin: 5px ; 
     background-color: rgb(75, 187, 150);
     display: inline-block;
-    
+    transition: transform 0.5s ease; 
 }
-
+.navegacion li:hover {
+    transform: scale(1.1);
+}
 .navegacion a{
     text-decoration: none;
     color: #ffffff;
 }
-@media (max-width: 768px){
+
+@media (max-width: 996px){
     .logo{
-        display: none;    }
+        display: none;
+    }
         .banner{
         display: none;
         }
@@ -77,14 +81,17 @@ footer h5{
 }
 .FooterUses{
     margin-top: 20px;
+    transition: transform 0.5s ease;
+}
+
+.icono:hover {
+    transform: scale(1.3);
 }
 
 .mapa{
         width: 50%;
         max-width: 50%;
-        height: auto;
-
-    }
+        height: auto; }
 
 
 
