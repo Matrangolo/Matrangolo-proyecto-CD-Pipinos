@@ -30,8 +30,15 @@ header{
     text-decoration: none;
     color: #ffffff;
 }
+@media (max-width: 768px){
+    .logo{
+        display: none;    }
+        .banner{
+        display: none;
+        }
+    }
 
-/*hasta acá igual para todas las paginas*/
+
 
 .banner {
     width: 100%;
@@ -49,6 +56,11 @@ main h1{
     font-family: 'Lobster', cursive;
 }
 
+.Espacio{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
 .letras{
     font-size: 25px;
     font-family: 'Kalam', cursive;
@@ -59,7 +71,20 @@ main h1{
 footer{
 background-color: rgb(141, 230, 200);}
 
-.iconos img{
-    height: 50px;
-    padding-left: 2%;
+footer h5{
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
+.FooterUses{
+    margin-top: 20px;
+}
+
+.mapa{
+        width: 50%;
+        max-width: 50%;
+        height: auto;
+
+    }
+
+
+
