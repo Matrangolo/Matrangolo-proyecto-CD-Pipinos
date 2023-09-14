@@ -2,12 +2,9 @@
     margin: 0;
     padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Kalam:wght@300&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Kalam:wght@300&family=Lobster&family=Poppins&display=swap');
 
-/*
-font-family: 'Crete Round', serif;
-font-family: 'Kalam', cursive;
-font-family: 'Lobster', cursive;*/
+/*nav gnral*/
 
 header{
     background-color: rgb(141, 230, 200);
@@ -28,10 +25,73 @@ header{
 .navegacion li:hover {
     transform: scale(1.1);
 }
+
+.logo:hover {
+    transform: scale(1.1); 
+    transition: transform 0.5s ease; 
+}
+
 .navegacion a{
     text-decoration: none;
     color: #ffffff;
 }
+
+
+/*fin nav*/
+
+/*footer gnral*/
+footer{
+    background-color: rgb(141, 230, 200);}
+    
+    footer h5{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .FooterUses{
+        margin-top: 20px;
+        transition: transform 0.5s ease;
+    }
+    
+    .icono:hover {
+        transform: scale(1.3);
+    }
+    
+    .mapa{
+            width: 50%;
+            max-width: 50%;
+            height: auto; }
+    
+    /*fin footer gnral*/
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Lobster', cursive;*/
+
+.LetrasSub{
+    font-size: 25px;
+    font-family: 'Kalam', cursive;
+}
+
+.LetrasTitulo {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+.LetrasTexto {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Espacio lo vamos a utilizar para titulos generalmente en todas las paginas*/
+.Espacio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+/*fin tipografias y utilidades*/
+
+/*Media que*/
 
 @media (max-width: 996px){
     .logo{
@@ -42,8 +102,9 @@ header{
         }
     }
 
+/*fin Media que*/
 
-
+/*index*/
 .banner {
     width: 100%;
     height: 500px; 
@@ -57,41 +118,4 @@ header{
 main h1{
     text-align: center;
     font-size: 50px;
-    font-family: 'Lobster', cursive;
 }
-
-.Espacio{
-margin-top: 50px;
-margin-bottom: 50px;
-}
-
-.letras{
-    font-size: 25px;
-    font-family: 'Kalam', cursive;
-}
-
-
-/*igual tambien para las demás paginas*/
-footer{
-background-color: rgb(141, 230, 200);}
-
-footer h5{
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-.FooterUses{
-    margin-top: 20px;
-    transition: transform 0.5s ease;
-}
-
-.icono:hover {
-    transform: scale(1.3);
-}
-
-.mapa{
-        width: 50%;
-        max-width: 50%;
-        height: auto; }
-
-
-
