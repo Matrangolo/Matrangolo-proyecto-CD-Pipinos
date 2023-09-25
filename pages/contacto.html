@@ -11,53 +11,60 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="container ">
-        <nav class="row text-center " >
-            <ul class="navegacion" >
-                <a class="col-12 d-block d-sm-block d-md-block d-lg-none" href="../index.html">
-                    <img src="../images/pipinos_logo.png" alt="" width=20%>
-                </a>
-                <a href="./servicios.html">
-                <li class="col-lg-2 col-md-12 col-12 rounded">Servicios</li>
-                </a>
-                <a href="./galeria.html">
-                <li class="col-lg-2 col-md-12 col-12 rounded" href="">Galeria</li>
-                </a>
-                <a class="col-lg-4 col-md-12 col-sm-12 col-12 " href="../index.html"> 
-                    <img class="logo" src="../images/pipinos_logo.png" alt="" width=20%>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse row text-center" id="navbarNav">
+                    <ul class="navegacion" >
+                        <a href="./servicios.html">
+                        <li class="col-lg-2 col-md-12 col-12 rounded">Servicios</li>
+                        </a>
+                        <a href="./galeria.html">
+                        <li class="col-lg-2 col-md-12 col-12 rounded" href="">Galeria</li>
+                        </a>
+                        <a class="col-lg-4 col-md-12 col-sm-12 col-12" href="../index.html"> 
+                            <img class="logo" src="../images/pipinos_logo.png" alt="" width=20%>
+                            </a>
+                        <a href="./petshop.html">
+                        <li class="col-lg-2 col-md-12 col-12 rounded" href="">Pet Shop</li>
+                    </a> 
+                    <a href="#">
+                        <li class="col-lg-2 col-md-12 col-12 rounded" href="">Contacto</li>
                     </a>
-                <a href="./petshop.html">
-                <li class="col-lg-2 col-md-12 col-12 rounded" href="">Pet Shop</li>
-            </a> 
-            <a href="#">
-                <li class="col-lg-2 col-md-12 col-12 rounded" href="">Contacto</li>
-            </a>
-            </ul>
-        </nav>
+                    </ul>
+                  </div>
+                  <a class="col-12 d-block d-sm-block d-md-block d-lg-none text-center" href="../index.html">
+                    <img src="../images/pipinos_logo.png" alt="" width=25%>
+                </a>
+                </div>
+              </nav>
     </div>
     </header>
     <!-- Fin Header -->
     <section>
         <div class="container">
-            <h1 class="text-center">Peluquería Canina Pipinos</h1>
-            <h2 class="text-center">Contacto</h2>
+            <h1 class="text-center LetrasTitulo">Peluquería Canina Pipinos</h1>
+            <h2 class="text-center LetrasSub">Contacto</h2>
             <form>
                 <div class="mb-3">
-                    <label for="nombre-dueno" class="form-label">Nombre del dueño:</label>
+                    <label for="nombre-dueno" class="form-label LetrasTexto">Nombre del dueño:</label>
                     <input type="text" class="form-control" id="nombre-dueno" name="nombre-dueno" required>
                 </div>
     
                 <div class="mb-3">
-                    <label for="nombre-mascota" class="form-label">Nombre de la mascota:</label>
+                    <label for="nombre-mascota" class="form-label LetrasTexto">Nombre de la mascota:</label>
                     <input type="text" class="form-control" id="nombre-mascota" name="nombre-mascota" required>
                 </div>
     
                 <div class="mb-3">
-                    <label for="telefono" class="form-label">Teléfono:</label>
+                    <label for="telefono" class="form-label LetrasTexto">Teléfono:</label>
                     <input type="tel" class="form-control" id="telefono" name="telefono" required>
                 </div>
     
-                <h4 class="mb-3">Su mascota es alérgica a algún producto?</h4>
+                <h4 class="mb-3 LetrasTexto">Su mascota es alérgica a algún producto?</h4>
                 <div class="mb-3">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" id="si" name="alergia" value="si">
@@ -70,7 +77,7 @@
                 </div>
     
                 <div class="mb-3">
-                    <label for="detalle" class="form-label">Detallar brevemente:</label>
+                    <label for="detalle" class="form-label LetrasTexto">Detallar brevemente:</label>
                     <input type="text" class="form-control" id="detalle" name="detalle" required>
                 </div>
     
