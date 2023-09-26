@@ -1,3 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Kalam:wght@300&family=Lobster&family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
 
+.Espacio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.FondoContacto {
+  background-color: rgb(167, 230, 253);
+}
+
+.Galeria li {
+  list-style: none;
+}
+
+.Galeria div {
+  text-align: center;
+  color: #ffffff;
+}
+
+.TarjetaTitulo {
+  background-color: rgb(75, 187, 150);
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.banner video {
+  width: 100vw;
+  height: 500px;
+  object-fit: cover;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.BodyCard {
+  border: 3px solid black;
+  border-radius: 3px;
+  transition: transform 0.2s ease-in-out;
+  background-color: #64cab4;
+  text-align: center;
+}
+
+.productos h5 {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.ImagenProducto {
+  width: auto;
+  height: 250px;
+}
+
+.Recuadro {
+  border: 1px solid #000000;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.ColorBoton {
+  background-color: #37C3A5;
+  color: #fff;
+  border: 1px solid #37C3A5;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  display: inline-block;
+  margin-bottom: 10px;
+  border: 1.5px solid black;
+  font-family: "Poppins", sans-serif;
+}
+
+.ColorBoton:hover {
+  background-color: rgb(44, 147, 117);
+  border-color: rgb(44, 147, 117);
+  border: 1.5px solid black;
+}
+
+footer {
+  background-color: #64cab4;
+}
+
+footer h5 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.FooterUses {
+  margin-top: 20px;
+  transition: transform 0.5s ease;
+}
+
+.icono:hover {
+  transform: scale(1.3);
+}
+
+.mapa {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+}
+
+.TextoFooter {
+  color: white;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+header {
+  background-color: #64cab4;
+}
+
+.navegacion {
+  color: rgb(255, 255, 255);
+  font-size: 140%;
+  font-family: "Lobster", cursive;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.navegacion li {
+  padding: 10px;
+  margin: 5px;
+  background-color: #37C3A5;
+  display: inline-block;
+  transition: transform 0.5s ease;
+  border: 1.5px solid black;
+}
+
+.navegacion li:hover {
+  transform: scale(1.1);
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 996px) {
+  .logo {
+    display: none;
+  }
+  .banner {
+    display: none;
+  }
+}
+.LetrasSub {
+  color: #37C3A5;
+  text-shadow: 0.5px 0.5px 0 black, -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black;
+  font-size: 25px;
+  font-family: "Kalam", cursive;
+}
+
+.LetrasTitulo {
+  color: #64cab4;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  font-size: 50px;
+  font-family: "Lobster", cursive;
+}
+
+.LetrasTexto {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.TextoGaleria {
+  color: white;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  font-size: 35px;
+}
+
+.TextoFooter {
+  color: white;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
 
 /*# sourceMappingURL=styles.css.map */
