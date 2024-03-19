@@ -1,0 +1,20 @@
+.ColorBoton {
+    background-color: $ColorSecundario; 
+    color: #fff; 
+    border: 1px solid $ColorSecundario; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+    display: inline-block; 
+    margin-bottom: 10px;
+    border:1.5px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ColorBoton:hover {
+    background-color: rgb(44, 147, 117); 
+    border-color: rgb(44, 147, 117); 
+    border:1.5px solid black;
+}
